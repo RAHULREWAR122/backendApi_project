@@ -18,7 +18,7 @@ router.get("/api/communities", allCommunities);
 
 
 router.get("/", (req, res) => {
-  res.send("<h2>Welcome to the Backend food Management System.</h2>");
+  res.send("<h2>Welcome to the Backend Api.</h2>");
 });
 
 
